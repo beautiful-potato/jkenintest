@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class TestController {
     @RequestMapping("index")
     public String index(){
+        System.out.println("111");
         System.out.println("跳转到index界面");
         return "index";
     }
